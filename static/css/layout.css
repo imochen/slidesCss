@@ -22,6 +22,7 @@ li{ list-style-type: none;}
 label{ width: 14px; height: 14px; position: relative; z-index: 10; border-radius: 14px; margin: 0; padding: 0; display: inline-block; background-color: rgba(0, 0, 0,0.5); -webkit-transition:all .5s; margin-top: 15px;}
 
 #p1:checked + label,#p2:checked + label,#p3:checked + label,#p4:checked + label,#p5:checked + label,#p6:checked + label,#p7:checked + label,#p8:checked + label,#p9:checked + label,#p10:checked + label{ background-color: rgba(22, 160, 133,1); -webkit-transition:all .5s; }
+input[type=radio]{ position: absolute; z-index: 0;}
 
 #p1:checked ~ .slides{ -webkit-transform : translateX(0);  }
 #p2:checked ~ .slides{ -webkit-transform : translateX(-10%); }
