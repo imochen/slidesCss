@@ -1,0 +1,37 @@
+html,body{ width: 100%; height: 100%; overflow: hidden;}
+ul,li,body,h1,h2,h3,h4,h5{ margin: 0; padding: 0;}
+body{ font-family: "Microsoft JhengHei","microsoft yahei",Monaco,Menlo,Consolas,"Courier New",monospace; text-align: center; }
+li{ list-style-type: none;}
+
+
+.bg1{ background-color: rgba(39, 174, 96,1.0)}
+.bg2{ background-color: rgba(41, 128, 185,1.0)}
+.bg3{ background-color: rgba(142, 68, 173,1.0)}
+.bg4{ background-color: rgba(44, 62, 80,1.0)}
+.bg5{ background-color: rgba(243, 156, 18,1.0)}
+.bg6{ background-color: rgba(211, 84, 0,1.0)}
+.bg7{ background-color: rgba(192, 57, 43,1.0)}
+.bg8{ background-color: rgba(189, 195, 199,1.0); color: #232323 !important;}
+.bg9{ background-color: rgba(127, 140, 141,1.0); color: #232323 !important;}
+.bg10{ background-color: rgba(54, 54, 54,1.0)}
+
+.slides{ width: 1000%; height: 100%; position: absolute; left: 0; top: 0; text-align: left; -webkit-transition:all .7s;}
+
+.page{ width: 10%; height: 100%; float: left;  color: #fff;}
+
+label{ width: 14px; height: 14px; position: relative; z-index: 10; border-radius: 14px; margin: 0; padding: 0; display: inline-block; background-color: rgba(0, 0, 0,0.5); -webkit-transition:all .5s; margin-top: 15px;}
+
+#p1:checked + label,#p2:checked + label,#p3:checked + label,#p4:checked + label,#p5:checked + label,#p6:checked + label,#p7:checked + label,#p8:checked + label,#p9:checked + label,#p10:checked + label{ background-color: rgba(22, 160, 133,1); -webkit-transition:all .5s; }
+
+#p1:checked ~ .slides{ -webkit-transform : translateX(0);  }
+#p2:checked ~ .slides{ -webkit-transform : translateX(-10%); }
+#p3:checked ~ .slides{ -webkit-transform : translateX(-20%); }
+#p4:checked ~ .slides{ -webkit-transform : translateX(-30%); }
+#p5:checked ~ .slides{ -webkit-transform : translateX(-40%); }
+#p6:checked ~ .slides{ -webkit-transform : translateX(-50%); }
+#p7:checked ~ .slides{ -webkit-transform : translateX(-60%); }
+#p8:checked ~ .slides{ -webkit-transform : translateX(-70%); }
+#p9:checked ~ .slides{ -webkit-transform : translateX(-80%); }
+#p10:checked ~ .slides{ -webkit-transform : translateX(-90%); }
+
+h2{ font-weight: 100; font-family: "microsoft yahei",Monaco,Menlo,Consolas,"Courier New",monospace; padding: 130px 10px; text-align: center; font-size: 45px;}
